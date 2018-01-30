@@ -1,0 +1,245 @@
+/*HEADER CSS--------------------------------------------------------------------*/
+
+.container-fluid{
+  background-color:  #ec4259;  
+}
+
+.artista-navbar{
+  background-color: #ec4259;
+  color: #fff;
+  vertical-align: middle;
+  font-size: 24px;  
+}
+.artista-navbar a{
+  color: #fff;
+  background-color: #ec4259 !important;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: black !important;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+  background-color: #ec4259 !important;
+  color: black;
+}
+
+
+.artista-navbar:hover{  
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: white;
+}
+
+#logo{
+  width: 100px;
+  height: 0 auto;
+}
+
+.navbar-menu-a{
+  margin: 10px;
+}
+
+
+
+
+/*----------fensi navbar-----------*/
+
+
+
+
+
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+
+
+/*BODY CSS---------------------------------------------------------------------*/
+body{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#buybutton {
+    background: #ec4259;
+    background-image: -webkit-linear-gradient(top,#ec4259, #ef677a);
+    background-image: -moz-linear-gradient(top, #ec4259, #ef677a);
+    background-image: -ms-linear-gradient(top, #ec4259, #ef677a);
+    background-image: -o-linear-gradient(top, #ec4259, #ef677a);
+    background-image: linear-gradient(to bottom, #ec4259, #ef677a);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 100%;
+}
+#buybutton :hover {
+    background: #ec4259;
+    background-image: -webkit-linear-gradient(top, #ec4259, #ef677a);
+    background-image: -moz-linear-gradient(top, #ec4259, #ef677a);
+    background-image: -ms-linear-gradient(top, #ec4259, #ef677a);
+    background-image: -o-linear-gradient(top, #ec4259, #ef677a);
+    background-image: linear-gradient(to bottom, #ec4259, #ef677a);
+    text-decoration: none;
+    width: 100%;
+}
+
+
+button > a{
+
+    color: white;
+    font-size: 18px;
+
+}
+button > a:hover{
+
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.art-container{  
+  margin: 20px 0px 0px 10px;   
+}
+
+
+
+/*backgrounds za vsak drugi menjaš..*/
+.bg-art{
+  background-color: #ec4259;
+  color: white;
+}
+
+
+.bg-art-inverse{
+  background-color: white;
+  color: #ec4259;
+}
+
+
+.art-left-banner{
+  left: 0;
+}
+
+
+.art-carousel-holder-correction{
+  margin-top: 20px;
+}
+
+.list-group{
+  text-align: center;
+  color:  #ec4259;
+}
+
+
+/*FOOTER CSS------------------------------------------------------------------*/
+
+.art-footer{ 
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 100%;
+  line-height: 20px;
+}
+
+.art-footer-columns{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+.art-footer-elements p{
+  background-color: white;
+  color: #ec4259;
+  border-radius: 25px;
+  max-width: 200px;
+  width: 200px
+}
+
+.art-position-center{  
+  position: relative;
+  left: auto;
+  right: auto;  
+}
+
+
+
+
+/*---------------MOBILE DEVICES--------------------*/
+
+@media screen and (max-width:632px){
+    .art-footer{
+        position: absolute;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        width: 100%;
+        line-height: 20px;
+    }
+
+}
